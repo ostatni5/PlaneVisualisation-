@@ -1,2 +1,2 @@
 # PlaneVisualisation-
-3D visualisation of plane was made with BabylonJS and TypeScript.
+3D visualisation of plane was made using BabylonJS and TypeScript.
