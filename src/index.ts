@@ -4,7 +4,7 @@ import "./main.scss";
 import { Engine, Scene, ArcRotateCamera, HemisphericLight, Vector3, MeshBuilder, Mesh } from "babylonjs";
 
 
-var canvas: any = document.getElementById("renderCanvas");
+var canvas: HTMLCanvasElement = <HTMLCanvasElement>document.getElementById("renderCanvas");
 var engine: Engine = new Engine(canvas, true);
 
 function createScene(): Scene {
